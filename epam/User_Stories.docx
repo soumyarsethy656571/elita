@@ -1,0 +1,9 @@
+User Story:
+
+As a client, I want to shift my sub-broker so that I can receive better services and support.
+Acceptance Criteria:
+
+1. Client can request to shift their sub-broker through the platform.
+2. Client receives confirmation of the sub-broker shift request.
+3. Client's account is successfully linked to the new sub-broker.
+4. Client receives a notification once the sub-broker shift is completed.
