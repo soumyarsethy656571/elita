@@ -1,0 +1,39 @@
+User Story 1: Initiation of Client Shifting Request
+Description: As a sub-broker, I want to initiate a client shifting request so that I can transfer a client to a new sub-broker.
+Acceptance Criteria:
+1. The sub-broker can initiate a client shifting request through the system.
+2. The system sends a notification confirming the initiation of the request.
+3. The request includes all necessary client details and the intended new sub-broker.
+User Scenarios:
+Scenario 1:
+Given I am logged in as a sub-broker
+When I initiate a client shifting request
+Then I should receive a confirmation notification
+
+User Story 2: Submission of Client Shifting Request
+Description: As a new sub-broker, I want to submit the client shifting request so that I can officially start the process of acquiring a new client.
+Acceptance Criteria:
+1. The new sub-broker can submit the client shifting request.
+2. The system sends a notification confirming the successful submission of the request.
+User Scenarios:
+Scenario 1:
+Given I am logged in as a new sub-broker
+When I submit a client shifting request
+Then I should receive a confirmation notification
+
+User Story 3: Approval or Rejection of Client Shifting Request
+Description: As an existing sub-broker, I want to approve or reject the client shifting request so that I can either retain the client or facilitate their smooth transition.
+Acceptance Criteria:
+1. The existing sub-broker has a 7-day window to respond to the request.
+2. The existing sub-broker can approve or reject the request using an OTP sent to the client’s registered contact details.
+3. Notifications are sent based on the action taken (approval or rejection).
+User Scenarios:
+Scenario 1:
+Given I am logged in as an existing sub-broker
+When I approve a client shifting request
+Then I should see a notification confirming the approval
+
+Scenario 2:
+Given I am logged in as an existing sub-broker
+When I reject a client shifting request using the OTP
+Then I should see a notification confirming the rejection
